@@ -35,6 +35,8 @@ Category:            Control
 
 Build-type:          Simple
 
+Homepage:            https://github.com/aristidb/functors
+
 -- Extra files to be distributed with the package, such as examples or
 -- a README.
 -- Extra-source-files:  
