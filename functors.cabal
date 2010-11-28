@@ -13,7 +13,9 @@ Version:             0.1
 Synopsis:            (.:) and friends, syntax for Functor and Applicative.
 
 -- A longer description of the package.
--- Description:         
+Description:         Alternative syntax for Functor and Applicative. Includes
+                     "Caleskell" idioms like (.) = fmap, and also extensions
+                     like (.:) = fmap . fmap and (&) = (<*>).
 
 -- The license under which the package is released.
 License:             BSD3
