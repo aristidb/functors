@@ -29,7 +29,7 @@ Author:              Aristid Breitkreuz
 Maintainer:          aristidb@googlemail.com
 
 -- A copyright notice.
--- Copyright:           
+Copyright:           Copyright (C) 2010 Aristid Breitkreuz
 
 Category:            Control
 
@@ -40,15 +40,17 @@ Build-type:          Simple
 -- Extra-source-files:  
 
 -- Constraint on the version of Cabal needed to build this package.
-Cabal-version:       >=1.2
+Cabal-version:       >=1.8
 
 
 Library
   -- Modules exported by the library.
-  -- Exposed-modules:     
+  Exposed-modules:     Data.Functor.Syntax
+
+  GHC-Options:         -Wall
   
   -- Packages needed in order to build this package.
-  -- Build-depends:       
+  Build-depends:       base >=4.2 && <5
   
   -- Modules not exported by this package.
   -- Other-modules:       
